@@ -16,7 +16,7 @@ DB_URL = os.environ.get("DB_URL","")
  
 FLOOD = int(os.environ.get("FLOOD", "10"))
 
-START_PIC = os.environ.get("START_PIC", "")
+START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/09d99d73b469b3ed2acb2.jpg")
 
 ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '5326801541').split()]
 
